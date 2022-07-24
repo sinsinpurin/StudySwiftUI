@@ -7,15 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		15AFA8DA2885CC1F0065415E /* TimerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15AFA8D92885CC1F0065415E /* TimerApp.swift */; };
+		15055259288C3B9600BFE0A7 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15055258288C3B9600BFE0A7 /* HomeView.swift */; };
+		152A702D288A98D1001CC949 /* StopWatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 152A702C288A98D1001CC949 /* StopWatchView.swift */; };
+		152A702F288A9F3F001CC949 /* StopWatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 152A702E288A9F3F001CC949 /* StopWatch.swift */; };
+		152A7031288AD7F2001CC949 /* StopWatchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 152A7030288AD7F2001CC949 /* StopWatchController.swift */; };
+		152A7033288BB60A001CC949 /* QRCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 152A7032288BB60A001CC949 /* QRCodeView.swift */; };
+		152A7035288BB675001CC949 /* QRScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 152A7034288BB675001CC949 /* QRScanner.swift */; };
+		152A7037288BB6DF001CC949 /* QRScannerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 152A7036288BB6DF001CC949 /* QRScannerController.swift */; };
+		152A703A288BC263001CC949 /* QrCodeCameraDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 152A7039288BC263001CC949 /* QrCodeCameraDelegate.swift */; };
+		152A7041288BC7F5001CC949 /* CameraPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 152A7040288BC7F5001CC949 /* CameraPreview.swift */; };
+		152A7043288BD0FE001CC949 /* QrCodeScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 152A7042288BD0FE001CC949 /* QrCodeScannerView.swift */; };
+		15AFA8DA2885CC1F0065415E /* StudySwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15AFA8D92885CC1F0065415E /* StudySwiftUI.swift */; };
 		15AFA8DC2885CC1F0065415E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15AFA8DB2885CC1F0065415E /* ContentView.swift */; };
 		15AFA8DE2885CC210065415E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15AFA8DD2885CC210065415E /* Assets.xcassets */; };
 		15AFA8E12885CC210065415E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15AFA8E02885CC210065415E /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		15AFA8D62885CC1F0065415E /* Timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Timer.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		15AFA8D92885CC1F0065415E /* TimerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerApp.swift; sourceTree = "<group>"; };
+		15055258288C3B9600BFE0A7 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		152A702C288A98D1001CC949 /* StopWatchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopWatchView.swift; sourceTree = "<group>"; };
+		152A702E288A9F3F001CC949 /* StopWatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopWatch.swift; sourceTree = "<group>"; };
+		152A7030288AD7F2001CC949 /* StopWatchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopWatchController.swift; sourceTree = "<group>"; };
+		152A7032288BB60A001CC949 /* QRCodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeView.swift; sourceTree = "<group>"; };
+		152A7034288BB675001CC949 /* QRScanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRScanner.swift; sourceTree = "<group>"; };
+		152A7036288BB6DF001CC949 /* QRScannerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRScannerController.swift; sourceTree = "<group>"; };
+		152A7039288BC263001CC949 /* QrCodeCameraDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QrCodeCameraDelegate.swift; sourceTree = "<group>"; };
+		152A7040288BC7F5001CC949 /* CameraPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPreview.swift; sourceTree = "<group>"; };
+		152A7042288BD0FE001CC949 /* QrCodeScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QrCodeScannerView.swift; sourceTree = "<group>"; };
+		15AFA8D62885CC1F0065415E /* StudySwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StudySwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		15AFA8D92885CC1F0065415E /* StudySwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudySwiftUI.swift; sourceTree = "<group>"; };
 		15AFA8DB2885CC1F0065415E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		15AFA8DD2885CC210065415E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		15AFA8E02885CC210065415E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -32,10 +52,56 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		152A7029288A9318001CC949 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				152A702C288A98D1001CC949 /* StopWatchView.swift */,
+				152A7032288BB60A001CC949 /* QRCodeView.swift */,
+				15055258288C3B9600BFE0A7 /* HomeView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		152A702A288A932B001CC949 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				152A702E288A9F3F001CC949 /* StopWatch.swift */,
+				152A7034288BB675001CC949 /* QRScanner.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		152A702B288A961F001CC949 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				152A7030288AD7F2001CC949 /* StopWatchController.swift */,
+				152A7036288BB6DF001CC949 /* QRScannerController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		152A7038288BC22A001CC949 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				152A703B288BC726001CC949 /* QRCodeScanner */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+		152A703B288BC726001CC949 /* QRCodeScanner */ = {
+			isa = PBXGroup;
+			children = (
+				152A7039288BC263001CC949 /* QrCodeCameraDelegate.swift */,
+				152A7040288BC7F5001CC949 /* CameraPreview.swift */,
+				152A7042288BD0FE001CC949 /* QrCodeScannerView.swift */,
+			);
+			path = QRCodeScanner;
+			sourceTree = "<group>";
+		};
 		15AFA8CD2885CC1F0065415E = {
 			isa = PBXGroup;
 			children = (
-				15AFA8D82885CC1F0065415E /* Timer */,
+				15AFA8D82885CC1F0065415E /* StudySwiftUI */,
 				15AFA8D72885CC1F0065415E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,20 +109,24 @@
 		15AFA8D72885CC1F0065415E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				15AFA8D62885CC1F0065415E /* Timer.app */,
+				15AFA8D62885CC1F0065415E /* StudySwiftUI.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		15AFA8D82885CC1F0065415E /* Timer */ = {
+		15AFA8D82885CC1F0065415E /* StudySwiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				15AFA8D92885CC1F0065415E /* TimerApp.swift */,
+				15AFA8D92885CC1F0065415E /* StudySwiftUI.swift */,
 				15AFA8DB2885CC1F0065415E /* ContentView.swift */,
+				152A7038288BC22A001CC949 /* utils */,
+				152A702B288A961F001CC949 /* Controller */,
+				152A702A288A932B001CC949 /* Model */,
+				152A7029288A9318001CC949 /* View */,
 				15AFA8DD2885CC210065415E /* Assets.xcassets */,
 				15AFA8DF2885CC210065415E /* Preview Content */,
 			);
-			path = Timer;
+			path = StudySwiftUI;
 			sourceTree = "<group>";
 		};
 		15AFA8DF2885CC210065415E /* Preview Content */ = {
@@ -70,9 +140,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		15AFA8D52885CC1F0065415E /* Timer */ = {
+		15AFA8D52885CC1F0065415E /* StudySwiftUI */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 15AFA8E42885CC210065415E /* Build configuration list for PBXNativeTarget "Timer" */;
+			buildConfigurationList = 15AFA8E42885CC210065415E /* Build configuration list for PBXNativeTarget "StudySwiftUI" */;
 			buildPhases = (
 				15AFA8D22885CC1F0065415E /* Sources */,
 				15AFA8D32885CC1F0065415E /* Frameworks */,
@@ -82,9 +152,9 @@
 			);
 			dependencies = (
 			);
-			name = Timer;
+			name = StudySwiftUI;
 			productName = Timer;
-			productReference = 15AFA8D62885CC1F0065415E /* Timer.app */;
+			productReference = 15AFA8D62885CC1F0065415E /* StudySwiftUI.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +172,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 15AFA8D12885CC1F0065415E /* Build configuration list for PBXProject "Timer" */;
+			buildConfigurationList = 15AFA8D12885CC1F0065415E /* Build configuration list for PBXProject "StudySwiftUI" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +185,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				15AFA8D52885CC1F0065415E /* Timer */,
+				15AFA8D52885CC1F0065415E /* StudySwiftUI */,
 			);
 		};
 /* End PBXProject section */
@@ -137,8 +207,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				152A7033288BB60A001CC949 /* QRCodeView.swift in Sources */,
+				152A7031288AD7F2001CC949 /* StopWatchController.swift in Sources */,
+				152A702D288A98D1001CC949 /* StopWatchView.swift in Sources */,
 				15AFA8DC2885CC1F0065415E /* ContentView.swift in Sources */,
-				15AFA8DA2885CC1F0065415E /* TimerApp.swift in Sources */,
+				15AFA8DA2885CC1F0065415E /* StudySwiftUI.swift in Sources */,
+				152A7041288BC7F5001CC949 /* CameraPreview.swift in Sources */,
+				152A7037288BB6DF001CC949 /* QRScannerController.swift in Sources */,
+				152A7043288BD0FE001CC949 /* QrCodeScannerView.swift in Sources */,
+				152A703A288BC263001CC949 /* QrCodeCameraDelegate.swift in Sources */,
+				15055259288C3B9600BFE0A7 /* HomeView.swift in Sources */,
+				152A7035288BB675001CC949 /* QRScanner.swift in Sources */,
+				152A702F288A9F3F001CC949 /* StopWatch.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,10 +348,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Timer/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"StudySwiftUI/Preview Content\"";
 				DEVELOPMENT_TEAM = H775UHZBPS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "QRCodeを読み取る為に使用します。";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -297,10 +378,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Timer/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"StudySwiftUI/Preview Content\"";
 				DEVELOPMENT_TEAM = H775UHZBPS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "QRCodeを読み取る為に使用します。";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -322,7 +404,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		15AFA8D12885CC1F0065415E /* Build configuration list for PBXProject "Timer" */ = {
+		15AFA8D12885CC1F0065415E /* Build configuration list for PBXProject "StudySwiftUI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				15AFA8E22885CC210065415E /* Debug */,
@@ -331,7 +413,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		15AFA8E42885CC210065415E /* Build configuration list for PBXNativeTarget "Timer" */ = {
+		15AFA8E42885CC210065415E /* Build configuration list for PBXNativeTarget "StudySwiftUI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				15AFA8E52885CC210065415E /* Debug */,
